@@ -1,8 +1,6 @@
 from string import punctuation
 
 Word = []
-
-
 def longest_word_in_file(file_name):
     k = 0
     r = open(file_name, encoding='utf-8')
